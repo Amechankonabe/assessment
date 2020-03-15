@@ -41,10 +41,11 @@ anchor.className = 'twitter-hashtag-button';
 anchor.setAttribute('data-text',result);
 anchor.innerText = 'Tweet #あなたのいいところ';
 
+
 tweetDivided.appendChild(anchor);
 //wedgets.jsの設定
 const script =document.createElement('script');
-script.setAttribute('src','https://platform.twitter.com/widgets.js')
+script.setAttribute('src','https://platform.twitter.com/widgets.js');
 tweetDivided.appendChild(script);
 };
 const answers = [
