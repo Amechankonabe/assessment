@@ -38,7 +38,7 @@ const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
   + '&ref_src=twsrc%5Etfw';
 anchor.setAttribute('href',hrefValue);
 anchor.className = 'twitter-hashtag-button';
-anchor.setAttribute('date-text',result);
+anchor.setAttribute('dat-text',result);
 anchor.innerText = 'Tweet #あなたのいいところ';
 
 tweetDivided.appendChild(anchor);
